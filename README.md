@@ -5,13 +5,13 @@ BookWorld is a front-end website for an online bookstore, built with HTML, CSS, 
 
 <h2>🌐 Features</h2>
 
-📖 Book listings with images
-✍️ Stationery items with images
-🎁 Gifts and cards with images
-🔍 Static category filters and search bar
-🛒 Shopping cart preview (non-functional)
-📱 Responsive layout for mobile/tablet/desktop
-💡 Built without frameworks — just HTML, CSS, JS
+📖 Book listings with images<br>
+✍️ Stationery items with images<br>
+🎁 Gifts and cards with images<br>
+🔍 Static category filters and search bar<br>
+🛒 Shopping cart preview (non-functional)<br>
+📱 Responsive layout for mobile/tablet/desktop<br>
+💡 Built without frameworks — just HTML, CSS, JS<br>
 
 
 <h2>📸 Screenshots</h2>
