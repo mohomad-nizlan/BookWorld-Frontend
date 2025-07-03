@@ -1,4 +1,4 @@
-<h3>📚 BookWorld</h3>
+<h1>📚 BookWorld</h1>
 
 BookWorld is a front-end website for an online bookstore, built with HTML, CSS, and JavaScript as part of a 1st-year academic project. It demonstrates foundational web development and responsive design practices. The site now also includes stationery items, gifts, and cards alongside books.<br><br>
 
