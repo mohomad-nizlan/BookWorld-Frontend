@@ -1,6 +1,6 @@
-<h2>📚 BookWorld</h2>
+<h3>📚 BookWorld</h3>
 
-BookWorld is a front-end website for an online bookstore, built with HTML, CSS, and JavaScript as part of a 1st-year academic project. It demonstrates foundational web development and responsive design practices. The site now also includes stationery items, gifts, and cards alongside books.
+BookWorld is a front-end website for an online bookstore, built with HTML, CSS, and JavaScript as part of a 1st-year academic project. It demonstrates foundational web development and responsive design practices. The site now also includes stationery items, gifts, and cards alongside books.<br><br>
 
 
 <h2>🌐 Features</h2>
@@ -11,7 +11,7 @@ BookWorld is a front-end website for an online bookstore, built with HTML, CSS, 
 🔍 Static category filters and search bar<br>
 🛒 Shopping cart preview (non-functional)<br>
 📱 Responsive layout for mobile/tablet/desktop<br>
-💡 Built without frameworks — just HTML, CSS, JS<br>
+💡 Built without frameworks — just HTML, CSS, JS<br><br>
 
 
 <h2>📸 Screenshots</h2>
@@ -34,7 +34,7 @@ BookWorld is a front-end website for an online bookstore, built with HTML, CSS, 
 
 🔹 Testimonials Page => [ScreenShots/testimonial_page.png](https://github.com/mohomad-nizlan/BookWorld-Frontend/blob/main/ScreenShots/testimonial_page.png)
 
-🔹 Contact Page => [ScreenShots/contact_page.png](https://github.com/mohomad-nizlan/BookWorld-Frontend/blob/main/ScreenShots/contact_page.png)
+🔹 Contact Page => [ScreenShots/contact_page.png](https://github.com/mohomad-nizlan/BookWorld-Frontend/blob/main/ScreenShots/contact_page.png)<br><br>
 
 
 <h2>📁 Project Structure</h2>
@@ -54,21 +54,21 @@ BookWorld is a front-end website for an online bookstore, built with HTML, CSS, 
 ├── stationery.html
 ├── styles.css
 ├── testimonials.html
-└── README.md</code></pre>
+└── README.md</code></pre><br><br>
 
 
 <h2>🚀 Getting Started</h2>
 
 git clone https://github.com/mohomad-nizlan/BookWorld-Frontend.git</br>
 cd bookworld-frontend</br>
-Open index.html in your browser</br>
+Open index.html in your browser</br><br>
 
 
 <h2>🛠 Tech Stack</h2>
 
 🔴HTML5<br>
 🔴CSS3<br>
-🔴JavaScript<br>
+🔴JavaScript<br><br>
 
 
 <h2>📝 License</h2>
