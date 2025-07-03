@@ -38,7 +38,7 @@ BookWorld is a front-end website for an online bookstore, built with HTML, CSS, 
 
 📁 Project Structure
 
-bookworld-frontend/
+<pre lang="markdown"> <code>bookworld-frontend/
 ├── Audios/
 ├── ScreenShots/
 ├── images/
@@ -53,7 +53,7 @@ bookworld-frontend/
 ├── stationery.html
 ├── styles.css
 ├── testimonials.html
-└── README.md
+└── README.md</code></pre>
 
 
 🚀 Getting Started
