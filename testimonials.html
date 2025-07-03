@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book World - Testimonials</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="images/book4.png" type="image/x-icon">
+    <style>
+
+        body{
+            background-color: #6280a0;
+            background-image: url("images/testimonialbg.jpg");
+        }
+
+        /* Main Content */
+        main {
+            padding: 40px;
+            max-width: 800px;
+            margin: 20px auto;
+            background: linear-gradient(to right, #48c0f4, #7bcff4);
+            border-radius: 10px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        main h2 {
+            font-size: 2.5rem;
+            text-align: center;
+            margin-bottom: 30px;
+            color: #000000;
+        }
+
+        .testimonial {
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            background-color: #f9f9f9;
+        }
+
+        .testimonial h3 {
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+            color: #2980b9;
+        }
+
+        .testimonial p {
+            margin-bottom: 10px;
+        }
+
+        video, audio {
+            display: block;
+            margin: 10px 0;
+            width: 100%;
+            border-radius: 5px;
+        }
+
+        label {
+            font-size: 0.9rem;
+            color: #34495e;
+        }
+
+    </style>
+</head>
+<body>
+    
+    <!-- Header -->
+    <header>
+        <div class = "nav2">
+            <nav>
+                <ul>
+                    <li><a href="index.html" target="_self">LOGIN</a></li>
+                    <li><a href="index.html" target="_self">REGISTER</a></li>
+                </ul>
+            </nav>
+         </div> 
+         
+         <div class = "nav1">
+            <nav>
+                <ul>
+                    <li><a href="index.html" target="_self">Home</a></li>
+                    <div class="dropdown">
+                        <li class="p1"><a href="categories.html" class="p2">Categories</a></li>
+                        <div class="dropdown-content">
+                            <a href="fiction.html" class="category-fiction">Fiction</a>
+                            <a href="non-fiction.html" class="category-non-fiction">Non-Fiction</a>
+                            <a href="stationery.html" class="category-stationery">Stationery</a>
+                            <a href="gifts-cards.html" class="category-gifts-cards">Gifts & Cards</a>
+                        </div>
+                    </div>
+                    <li><a href="testimonials.html" target="_self">Testimonials</a></li>
+                    <li><a href="contact.html" target="_self">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>  
+
+        <div class="top-left" >
+            <!-- Search Box -->
+            <form class="search-form">
+                <input type="text" placeholder="Search for books" required>
+                <button type="submit">Search</button>
+            </form>
+        </div>
+
+        <div class="cart">
+            <!-- Add to Cart Button -->
+            <button class="add-to-cart">
+                <img src="images/cart.png" alt="Cart" class="cart-icon">Add to Cart
+            </button>
+        </div>
+        
+        <div class="header-content">
+            <img src="images/book4.png" alt="Book World Logo" class="logo">
+            <h1>BOOK WORLD</h1>
+            <p class="tagline">-explore more discover more-</p>
+        </div>
+    </header>
+
+    <main>
+        <h2>Customer Testimonials</h2>
+        <div class="testimonial">
+            <h3>Ahmed | Kandy</h3>
+            <p>Great service and an amazing collection of books!</p>
+            <video controls>
+                <source src="videos/video2.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <audio controls>
+                <source src="audios/audio2.mp3" type="audio/mp3">
+                Your browser does not support the audio tag.
+            </audio>
+            <p>Date: 2024-09-30</p>
+            <label>
+                <input type="checkbox"> Did you enjoy our service?
+            </label>
+        </div>
+
+        <div class="testimonial">
+            <h3>Aysha | Colombo</h3>
+            <p>Excellent service and a fantastic range of books!</p>
+            <video controls>
+                <source src="videos/video1.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <audio controls>
+                <source src="audios/audio1.mp3" type="audio/mp3">
+                Your browser does not support the audio tag.
+            </audio>
+            <p>Date: 2024-05-20</p>
+            <label>
+                <input type="checkbox"> Did you enjoy our service?
+            </label>
+
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="about-us">
+            <h3>About Us</h3>
+            <p>Welcome to <strong>Book World Private Limited</strong>, your trusted destination for a vast range of books, from timeless classics to the latest bestsellers. We are passionate about connecting readers with books that inspire, inform, and ignite imagination. Whether you're a student, a casual reader, or an avid book collector, we have something for everyone.</p>
+            <p>Founded in 2000, Book World started as a small local store, and over the years, we have grown into a beloved online bookstore serving customers across Sri Lanka. We pride ourselves on offering exceptional customer service and a curated selection of books across various genres.</p>  
+        </div>        
+
+        <div class="xcontainer">
+            <h3><u>Contact Us</u></h3> <!-- Changed to h3 to match CSS -->
+            <form id="contact-form" action="#" method="POST">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="subject">Subject:</label>
+                    <input type="text" id="subject" name="subject" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                </div> 
+                    <textarea class="message" name="message" rows="2" required></textarea>
+                    <button type="submit" class="btn">Send Message</button>
+                </div>
+            </form>
+        </div>
+
+        <!-- Social Media and Other Info -->
+        <div class="social-media">
+            <p>&copy; 2024 Book World Private Limited. All Rights Reserved.</p>
+            <p style="font-size: 14px;">Registered in Sri Lanka | Registration Number: BW123456789</p>
+            <p class ="p1" style="font-size:13px ;">Contact us: 3/1/1, Thihariya, Sri Lanka | Phone: 0753627840 | Email: info@bookworld.com</p>
+            <a href="https://www.whatsapp.com" target="_blank">Whatsapp</a>
+            <a href="https://www.instagram.com" target="_blank">Instagram</a>
+            <a href="https://www.facebook.com" target="_blank">Facebook</a>
+            <a href="https://twitter.com" target="_blank">Twitter</a>
+            <img src="images/logo1.png" class="logo1">
+        </div>  
+
+        <!-- Corrected closing tag of the div -->
+        <div class="xemail">
+                <form class ="form-group1">
+                    <h2>Subscribe to Our Newsletter</h2>
+                    <input type="email" class="subscribe-email" placeholder="Enter Your Email Address" name="subscribe-email" required>
+                    <button type="submit" class="btn1">Subscribe</button>
+                </form>    
+        </div>
+        
+        <div class="subscription" id="subscription">
+            <h2>Our Subscription Plans</h2>
+            <p style="color: rgb(195, 204, 204);">Select a plan that suits you best.&#128515</p>
+            <div class="card-container">
+                <div class="card">
+                    <img src="images/planbasic.png" alt="Basic Plan Image" height="50%" width="80%">
+                    <h3>Basic Plan</h3>
+                    <p>LKR 500 /month</p>
+                    <button class="btn1">Subscribe</button>
+                </div>
+                <div class="card">
+                    <img src="images/planstandard.png" alt="Standard Plan Image" height="50%" width="80%">
+                    <h3>Standard Plan</h3>
+                    <p>LKR 1500 /month</p>
+                    <button class="btn1">Subscribe</button>
+                </div>
+                <div class="card">
+                    <img src="images/planPremium.png" alt="Premium Plan Image" height="50%" width="80%">
+                    <h3>Premium Plan</h3>
+                    <p>LKR 3000 /month</p>
+                    <button class="btn1">Subscribe</button>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>    

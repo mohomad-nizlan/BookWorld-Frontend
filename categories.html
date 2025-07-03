@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book World - Categoties</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="images/book4.png" type="image/x-icon">
+
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class = "nav2">
+            <nav>
+                <ul>
+                    <li><a href="index.html" target="_self">LOGIN</a></li>
+                    <li><a href="index.html" target="_self">REGISTER</a></li>
+                </ul>
+            </nav>
+         </div> 
+         
+        <div class = "nav1">
+            <nav>
+                <ul>
+                    <li><a href="index.html" target="_self">Home</a></li>
+                    <li><a href="categories.html" target="_self">Categories</a></li>
+                    <li><a href="testimonials.html" target="_self">Testimonials</a></li>
+                    <li><a href="contact.html" target="_self">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div> 
+
+        <div class="top-left" >
+            <!-- Search Box -->
+            <form class="search-form">
+                <input type="text" placeholder="Search for books" required>
+                <button type="submit">Search</button>
+            </form>
+        </div>
+
+        <div class="cart">
+            <!-- Add to Cart Button -->
+            <button class="add-to-cart">
+                <img src="images/cart.png" alt="Cart" class="cart-icon">Add to Cart
+            </button>
+        </div>
+        
+        <div class="header-content">
+            <img src="images/book4.png" alt="Book World Logo" class="logo">
+            <h1>BOOK WORLD</h1>
+            <p class="tagline">-explore more discover more-</p>
+        </div>
+    </header>
+
+    <!-- Main content -->
+    <main class="categories-section">
+        <h2>Select a Category</h2>
+        <ul class="category-list">
+            <li>
+                <a href="fiction.html" target="_self">
+                    <img src="images/fiction.png" alt="Fiction Icon">
+                    <span>Fiction</span>
+                </a>
+            </li>
+            <li>
+                <a href="non-fiction.html" target="_self">
+                    <img src="images/non_fiction.jpg" alt="Non-Fiction Icon">
+                    <span>Non-Fiction</span>
+                </a>
+            </li>
+            <li>
+                <a href="gifts-cards.html" target="_self">
+                    <img src="images/giftscards.jpg" alt="Gifts and Cards Icon">
+                    <span>Gifts-Cards</span>
+                </a>
+            </li>
+            <li>
+                <a href="stationery.html" target="_self">
+                    <img src="images/stationary.jpg" alt ="Stationery Icon">
+                    <span>Stationary</span>
+                </a>
+            </li>
+        </ul>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="about-us">
+            <h3>About Us</h3>
+            <p>Welcome to <strong>Book World Private Limited</strong>, your trusted destination for a vast range of books, from timeless classics to the latest bestsellers. We are passionate about connecting readers with books that inspire, inform, and ignite imagination. Whether you're a student, a casual reader, or an avid book collector, we have something for everyone.</p>
+            <p>Founded in 2000, Book World started as a small local store, and over the years, we have grown into a beloved online bookstore serving customers across Sri Lanka. We pride ourselves on offering exceptional customer service and a curated selection of books across various genres.</p>  
+        </div>        
+
+        <div class="xcontainer">
+            <h3><u>Contact Us</u></h3> <!-- Changed to h3 to match CSS -->
+            <form id="contact-form" action="#" method="POST">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="subject">Subject:</label>
+                    <input type="text" id="subject" name="subject" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                </div> 
+                    <textarea class="message" name="message" rows="2" required></textarea>
+                    <button type="submit" class="btn">Send Message</button>
+                </div>
+            </form>
+        </div>
+
+        <!-- Social Media and Other Info -->
+        <div class="social-media">
+            <p>&copy; 2024 Book World Private Limited. All Rights Reserved.</p>
+            <p style="font-size: 14px;">Registered in Sri Lanka | Registration Number: BW123456789</p>
+            <p class ="p1" style="font-size:13px ;">Contact us: 3/1/1, Thihariya, Sri Lanka | Phone: 0753627840 | Email: info@bookworld.com</p>
+            <a href="https://www.whatsapp.com" target="_blank">Whatsapp</a>
+            <a href="https://www.instagram.com" target="_blank">Instagram</a>
+            <a href="https://www.facebook.com" target="_blank">Facebook</a>
+            <a href="https://twitter.com" target="_blank">Twitter</a>
+            <img src="images/logo1.png" class="logo1">
+        </div>  
+
+        <!-- Corrected closing tag of the div -->
+        <div class="xemail">
+                <form class ="form-group1">
+                    <h2>Subscribe to Our Newsletter</h2>
+                    <input type="email" class="subscribe-email" placeholder="Enter Your Email Address" name="subscribe-email" required>
+                    <button type="submit" class="btn1">Subscribe</button>
+                </form>    
+        </div>
+        
+        <div class="subscription" id="subscription">
+            <h2>Our Subscription Plans</h2>
+            <p style="color: rgb(195, 204, 204);">Select a plan that suits you best.&#128515</p>
+            <div class="card-container">
+                <div class="card">
+                    <img src="images/planbasic.png" alt="Basic Plan Image" height="50%" width="80%">
+                    <h3>Basic Plan</h3>
+                    <p>LKR 500 /month</p>
+                    <button class="btn1">Subscribe</button>
+                </div>
+                <div class="card">
+                    <img src="images/planstandard.png" alt="Standard Plan Image" height="50%" width="80%">
+                    <h3>Standard Plan</h3>
+                    <p>LKR 1500 /month</p>
+                    <button class="btn1">Subscribe</button>
+                </div>
+                <div class="card">
+                    <img src="images/planPremium.png" alt="Premium Plan Image" height="50%" width="80%">
+                    <h3>Premium Plan</h3>
+                    <p>LKR 3000 /month</p>
+                    <button class="btn1">Subscribe</button>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>    
