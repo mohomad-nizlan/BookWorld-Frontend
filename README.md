@@ -14,43 +14,33 @@ BookWorld is a front-end website for an online bookstore, built with HTML, CSS, 
 
 📸 Screenshots
 
-📌 Note: Replace the placeholder image paths below with your actual screenshot filenames in the ScreenShots/ folder.
+🔹 Homepage => [ScreenShots/home_page.png](https://github.com/mohomad-nizlan/BookWorld-Frontend/blob/main/ScreenShots/home_page.png)
 
-🔹 Homepage => ScreenShots/home_page.png
+🔹 Footer => [ScreenShots/footer.png](https://github.com/mohomad-nizlan/BookWorld-Frontend/blob/main/ScreenShots/footer.png)
 
-🔹 Footer => ScreenShots/footer.png
+🔹 Header => [ScreenShots/header.png](https://github.com/mohomad-nizlan/BookWorld-Frontend/blob/main/ScreenShots/header.png)
 
-🔹 Header => ScreenShots/header.png
+🔹 Book Categories => [ScreenShots/categories_page.png](https://github.com/mohomad-nizlan/BookWorld-Frontend/blob/main/ScreenShots/categories_page.png)
 
-🔹 Book Categories => ScreenShots/categories_page.png
+🔹 Fiction Page => [ScreenShots/fiction_page.png](https://github.com/mohomad-nizlan/BookWorld-Frontend/blob/main/ScreenShots/fiction_page.png)
 
-🔹 Fiction Page => ScreenShots/fiction_page.png
+🔹 Non-Fiction Page => [ScreenShots/non-fiction_page.png](https://github.com/mohomad-nizlan/BookWorld-Frontend/blob/main/ScreenShots/non-fiction_page.png)
 
-🔹 Non-Fiction Page => ScreenShots/non-fiction_page.png
+🔹 Stationery Page => [ScreenShots/stationary_page.png](https://github.com/mohomad-nizlan/BookWorld-Frontend/blob/main/ScreenShots/stationary_page.png)
 
-🔹 Stationery Page => ScreenShots/stationary_page.png
+🔹 Gifts & Cards Page => [ScreenShots/gifts&cards_page.png](https://github.com/mohomad-nizlan/BookWorld-Frontend/blob/main/ScreenShots/gifts&cards_page.png)
 
-🔹 Gifts & Cards Page => ScreenShots/gifts&cards_page.png
+🔹 Testimonials Page => [ScreenShots/testimonial_page.png](https://github.com/mohomad-nizlan/BookWorld-Frontend/blob/main/ScreenShots/testimonial_page.png)
 
-🔹 Testimonials Page => ScreenShots/testimonial_page.png
+🔹 Contact Page => [ScreenShots/contact_page.png](https://github.com/mohomad-nizlan/BookWorld-Frontend/blob/main/ScreenShots/contact_page.png)
 
-🔹 Contact Page => ScreenShots/contact_page.png
 
 
 📁 Project Structure
+
 bookworld-frontend/
 ├── Audios/
 ├── ScreenShots/
-│   ├── categories_page.png
-│   ├── contact_page.png
-│   ├── fiction_page.png
-│   ├── footer.png
-│   ├── gifts&cards_page.png
-│   ├── header.png
-│   ├── home_page.png
-│   ├── non-fiction_page.png
-│   ├── stationary_page.png
-│   └── testimonial_page.png
 ├── images/
 ├── videos/
 ├── categories.html
